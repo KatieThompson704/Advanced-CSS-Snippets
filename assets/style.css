@@ -2,7 +2,7 @@
     font-family: arial;
     box-sizing: border-box;
     text-align: center;
-    border-radius: 20px;
+    border-radius: 10px;
     background-color:rgb(228, 222, 212);
 }
 
@@ -12,7 +12,7 @@ header {
     flex-wrap: wrap;
     /* border-style: dashed;
     background-color: skyblue; */
-    padding: 25 px;
+    padding: 100 px;
     width: 100%
 }
 
@@ -20,6 +20,12 @@ header h1 {
     /* background-color: skyblue; */
     width: 100%;
     font-size: x-large;
+    display:inline-block;
+}
+
+header h1:hover {
+    color: rgb(228, 222, 212);
+    background-color: black;
 }
 
 header p {
@@ -130,6 +136,16 @@ header p {
     margin: 0px;
     background: linear-gradient(180deg, white 0%, skyblue);
     user-select: all;
-    
+}
+ 
+footer h3{
+    color: black;
+    min-width: fit-content;
+    align-content: center;
+
 }
 
+footer h3:hover {
+    font-size: x-large;
+    color: cornflowerblue;
+}
