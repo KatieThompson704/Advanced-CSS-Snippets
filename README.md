@@ -31,4 +31,6 @@ This application was built using:
 
 * animation using the CSS transition property
 
+## Usage
 
+* Access the web application here: https://katiethompson704.github.io/Advanced-CSS-Snippets/
