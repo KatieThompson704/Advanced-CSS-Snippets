@@ -1,0 +1,118 @@
+*{
+    background-color: grey;
+    font-family: arial;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 10 px;
+    margin: 20 px;
+    border-radius: 20px;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    border-style: dashed;
+    background-color: skyblue;
+}
+
+header h1 , p {
+    color: royalblue;
+    background-color: skyblue;
+    width: 100%;
+    font-size: medium;
+}
+
+.outermost-container{
+    display: flex;
+    float:inline-start;
+    color: yellow;
+    border-style:dashed;
+    background-color: palegoldenrod;
+    border-color:yellow;
+    /* flex: 0 0 100px; */
+    flex-direction: row;
+    flex-wrap:wrap; 
+    margin: 20px;
+    padding: 70px;
+}
+
+.snippet-group-container {
+    display: flex;
+    flex-wrap:wrap;
+    float:inline-start;
+    color: red;
+    border-style:dashed;
+    background-color: pink;
+    border-color:red;
+    flex-direction: column;
+    width: 33%;
+    padding-bottom: 75px;
+}
+
+.snippet-container{
+    display: flex;
+    flex-wrap: wrap;
+    color: blue;
+    background-color: cornflowerblue;
+    border-style:dashed;
+    border-color: blue;
+    height: 50%;
+    padding: 5px;
+    justify-items: center;
+    
+} 
+
+.snippet-title-container {
+    display: flex;
+    flex-wrap: wrap;
+    color: green;
+    background-color: rgb(82, 166, 82);
+    border-style:dashed;
+    border-color:green;
+    width: 100%;
+    height:min-content;
+    padding: 10px;
+    margin: 0px;
+    justify-content: center;
+}
+
+.snippet-subtitle {
+    display: flex;
+    flex-wrap: wrap;
+    color: pink;
+    background-color: palevioletred;
+    border-style:dashed;
+    border-color:pink;
+    width: 100%;
+    font-size: small;
+    padding: 10px;
+    text-align: left;
+    margin: 0px;
+}
+
+.snippet-lower-container {
+    display: flex;
+    flex-wrap: wrap;
+    color: orange;
+    background-color: lightcoral;
+    border-style:dashed;
+    border-color:black;
+    width: 100%;
+    height: 50%;
+    
+} 
+
+.snippet-lower-container p{
+    display: flex;
+    flex-wrap: wrap;
+    color: purple;
+    background-color: lavender;
+    border-style:dashed;
+    border-color:black;
+    width: 100%;
+    text-align: left;
+    padding: 15px;
+    margin: 0px;
+    
+}
+

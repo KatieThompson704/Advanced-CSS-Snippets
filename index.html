@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href= "assets/style.css" />
+    <title>CSS Cheatsheet</title>
+</head>
+
+<body>
+    <header>
+    <h1>CSS Snippet Cheatsheet</h1>
+    <p>Ever have trouble recalling the exact syntax for your favorite CSS code? Give it a permanent home and add it to this page! Select any snippet below and it will automatically select all of the code for you to copy.</p>
+    </header>
+
+<section class="outermost-container"> 
+    <main class="snippet-group-container">
+        <section class="snippet-container">
+            <h2 class="snippet-title-container">Flexbox Row</h2>
+            <h3 class="snippet-subtitle">Use these 3 properties to create a flexbox row layout</h3>
+        </section>
+        <section class="snippet-lower-container">
+                <p>.row { <br>
+                display: flex; <br>
+                flex-direction: row; <br>
+                flex-wrap: wrap; <br>
+                }
+                </p>
+        </section>
+    </main>
+
+    <main class="snippet-group-container">
+            <section class="snippet-container">
+                <h2 class="snippet-title-container">Flexbox Column</h2>
+                <h3 class="snippet-subtitle">Use this to create a flexbox column layout</h3>
+            </section>
+            <section class="snippet-lower-container">
+                    <p>.column { <br>
+                    display: flex; <br>
+                    flex-direction: column; <br>
+                    }
+                    </p>
+            </section>
+    </main>
+
+    <main class="snippet-group-container">
+        <section class="snippet-container">
+            <h2 class="snippet-title-container">CSS Grid Layout</h2>
+            <h3 class="snippet-subtitle">Build a 12-column layout using CSS Grid</h3>
+        </section>
+        <section class="snippet-lower-container">
+                <p>.grid { <br>
+                width: 100%; <br>
+                grid-template-columns: <br>
+                repeat(12, 1fr); <br>
+                }
+                </p>
+        </section>
+    </main>
+
+    <main class="snippet-group-container">
+        <section class="snippet-container">
+            <h2 class="snippet-title-container">Linear Gradients</h2>
+            <h3 class="snippet-subtitle">This will create a background linear gradient from top to bottom.</h3>
+        </section>
+        <section class="snippet-lower-container">
+                <p>.linear-gradient-background { <br>
+                background-image: linear-gradient(<br>
+                rgba(232, 102, 236, 0.3) 0% <br>
+                rgba(232, 102, 236, 0,6) <br>
+                repeat(12, 1fr); <br>
+                }
+                </p>
+        </section>
+    </main>
+
+    <main class="snippet-group-container">
+        <section class="snippet-container">
+            <h2 class="snippet-title-container">Box Transition Glow</h2>
+            <h3 class="snippet-subtitle">Use transition and box shadows to glow on hover.</h3>
+        </section>
+        <section class="snippet-lower-container">
+                <p>.code-card .card-head { <br>
+                border-radius: 8px;(<br>
+                transition: all 0.5s ease-in-out;<br>
+                }<br>
+                <br>
+                .code-card: hover,<br>
+                .code-card: hover .card-header {<br>
+                box-shadow: inset 0px 0px 8px <br>
+                rgba(232, 102, 236, 1) 0% <br>
+                rgba(232, 102, 236, 1), 0 0 15px <br>
+                repeat(12, 1fr); <br>
+                }
+                </p>
+        </section>
+    </main>
+
+    <main class="snippet-group-container">
+        <section class="snippet-container">
+            <h2 class="snippet-title-container">Overlay Card with Title</h2>
+            <h3 class="snippet-subtitle">Use position properties and negative margins to raise elements higher than their natural starting point.</h3>
+        </section>
+        <section class="snippet-lower-container">
+                <p>.card-header { <br>
+                position: relative; <br>
+                margin-top: -20px; <br>
+                }
+                </p>
+        </section>
+    </main>
+</section>
+
+<footer>
+<h3> Made with ❤️ and CSS</h3>
+</footer>
+</body>
+</html>
