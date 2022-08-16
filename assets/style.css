@@ -1,23 +1,30 @@
 *{
-    background-color: grey;
     font-family: arial;
     box-sizing: border-box;
     text-align: center;
-    padding: 10 px;
-    margin: 20 px;
     border-radius: 20px;
+    background-color:blanchedalmond;
+
 }
 
 header {
+    box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
-    border-style: dashed;
-    background-color: skyblue;
+    /* border-style: dashed;
+    background-color: skyblue; */
+    padding: 25 px;
+    width: 100%
 }
 
-header h1 , p {
-    color: royalblue;
-    background-color: skyblue;
+header h1 {
+    /* background-color: skyblue; */
+    width: 100%;
+    font-size: x-large;
+}
+
+header p {
+    /* background-color: skyblue; */
     width: 100%;
     font-size: medium;
 }
@@ -26,36 +33,36 @@ header h1 , p {
     display: flex;
     float:inline-start;
     color: yellow;
-    border-style:dashed;
+    /* border-style:dashed;
     background-color: palegoldenrod;
-    border-color:yellow;
-    /* flex: 0 0 100px; */
+    border-color:yellow; */
     flex-direction: row;
     flex-wrap:wrap; 
     margin: 20px;
-    padding: 70px;
+    padding: 30px;
 }
 
 .snippet-group-container {
     display: flex;
     flex-wrap:wrap;
     float:inline-start;
-    color: red;
+    color: cornflowerblue;
     border-style:dashed;
-    background-color: pink;
-    border-color:red;
+    /* background-color: thistle; */
+    border-color:cornflowerblue; 
     flex-direction: column;
     width: 33%;
     padding-bottom: 75px;
+    margin: 2px;
 }
 
 .snippet-container{
     display: flex;
     flex-wrap: wrap;
     color: blue;
-    background-color: cornflowerblue;
+    /* background-color: teal;
     border-style:dashed;
-    border-color: blue;
+    border-color: blue; */
     height: 50%;
     padding: 5px;
     justify-items: center;
@@ -65,28 +72,27 @@ header h1 , p {
 .snippet-title-container {
     display: flex;
     flex-wrap: wrap;
-    color: green;
-    background-color: rgb(82, 166, 82);
-    border-style:dashed;
-    border-color:green;
+    color:royalblue;
+    /* border-style:dashed;
+    border-color:royalblue; */
     width: 100%;
     height:min-content;
     padding: 10px;
     margin: 0px;
     justify-content: center;
+    background: linear-gradient(135deg, pink 60%, cyan);
 }
 
 .snippet-subtitle {
     display: flex;
     flex-wrap: wrap;
-    color: pink;
-    background-color: palevioletred;
-    border-style:dashed;
-    border-color:pink;
+    color: cornflowerblue;
+    /* border-style: solid;
+    border-color:grey; */
     width: 100%;
-    font-size: small;
-    padding: 10px;
+    font-size: medium;
     text-align: left;
+    padding: 10px;
     margin: 0px;
 }
 
@@ -94,9 +100,9 @@ header h1 , p {
     display: flex;
     flex-wrap: wrap;
     color: orange;
-    background-color: lightcoral;
-    border-style:dashed;
-    border-color:black;
+    background-color: coral;
+    /* border-style:dashed;
+    border-color:black; */
     width: 100%;
     height: 50%;
     
@@ -105,14 +111,19 @@ header h1 , p {
 .snippet-lower-container p{
     display: flex;
     flex-wrap: wrap;
-    color: purple;
-    background-color: lavender;
-    border-style:dashed;
-    border-color:black;
+    color: black;
+    font-size:small;
+    font-family: monospace;
+    /* border-style:dashed;
+    border-color:green; */
     width: 100%;
     text-align: left;
-    padding: 15px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     margin: 0px;
+    background: linear-gradient(180deg, white 0%, skyblue);
+    user-select: all;
     
 }
 
