@@ -112,7 +112,7 @@ header p {
     display: flex;
     flex-wrap: wrap;
     color: orange;
-    background-color: coral;
+    /* background-color: coral; */
     /* border-style:dashed;
     border-color:black; */
     width: 100%;
@@ -120,7 +120,7 @@ header p {
     
 } 
 
-.snippet-lower-container p{
+.snippet-lower-container p, .snippet-lower-container span {
     display: flex;
     flex-wrap: wrap;
     color: black;
@@ -130,14 +130,24 @@ header p {
     border-color:green; */
     width: 100%;
     text-align: left;
+    margin: 0px;
+    background-color: transparent;
+    user-select: all;
+    /* text-indent: 50px; */
+}
+
+.snippet-lower-container p {
+    text-indent: 0;
     padding-left: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
-    margin: 0px;
     background: linear-gradient(180deg, white 0%, skyblue);
-    user-select: all;
 }
- 
+
+.snippet-lower-container span {
+    text-indent: 25px;
+}
+
 footer h3{
     color: black;
     min-width: fit-content;
